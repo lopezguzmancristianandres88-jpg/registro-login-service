@@ -1,30 +1,37 @@
 # Servicio Web de Registro e Inicio de Sesión
 
-El proyecto es un servicio web realizado con **node.js** y **Express**. 
-Permite que se puedan registrar usuarios y realizar inicio de sesión verificando el nombre de usuario y la contraseña.
+Este proyecto es un servicio web hecho con **Node.js** y **Express**.  
+Permite registrar usuarios y realizar inicio de sesión verificando el nombre de usuario y la contraseña.
 
 ---
 
 ## Funcionalidades
 
-- Registro de nuevos usuarios (ruta `/registro`)
-- Inicio de sesión de usuarios existentes (ruta `/login`)
-- Mensajes de autenticación exitosa o error
-- Servidor ejecutándose en `http://localhost:3000`
+- `POST /registro` → Registrar un nuevo usuario.  
+- `POST /login` → Iniciar sesión verificando usuario y contraseña.  
+- Devuelve mensajes claros en formato JSON.  
+- Servidor funcionando en `http://localhost:3000`.
 
 ---
 
-## Tecnologías usadas
+## Tecnologías utilizadas
 
-- Node.js
-- Express.js
-- JavaScript
+- Node.js  
+- Express  
+- JavaScript  
 
 ---
 
-## Instrucciones para ejecutar el proyecto
+## Requisitos
 
-1. Abrir una terminal en la carpeta del proyecto
-2. Instalar dependencias:
+- Tener instalado **Node.js** (versión 14 o superior).  
+- Tener instalado **npm**.
+
+---
+
+## Instrucciones para ejecutar
+
+1. Abrir una terminal en la carpeta del proyecto.  
+2. Instalar las dependencias:  
    ```bash
    npm install

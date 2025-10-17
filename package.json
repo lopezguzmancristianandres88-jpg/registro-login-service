@@ -1,13 +1,14 @@
 {
   "name": "registro-login-service",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Servicio web para registro e inicio de sesión con Express.",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["registro", "login", "express", "api"],
+  "author": "Cristian Lopez",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
