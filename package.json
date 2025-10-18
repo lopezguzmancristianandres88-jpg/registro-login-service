@@ -1,5 +1,5 @@
 {
-  "name": "registro-login-service",
+  "name": "registro-login-servicio",
   "version": "1.0.0",
   "description": "Servicio web para registro e inicio de sesión con Express.",
   "main": "server.js",
